@@ -86,6 +86,11 @@ loop:
 			case ESMClass:
 				mask := byte(1 << 6)
 				udhiFlag = mask == b&mask
+				var flag uint8
+				if udhiFlag {
+					flag = 1
+				}
+				f[UdhiFlag] = &Fixed{Data: flag}
 			}
 		case UDHLength:
 			if !udhiFlag {
