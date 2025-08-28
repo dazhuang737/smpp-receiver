@@ -1,6 +1,6 @@
-module github.com/dazhuang737/smpp-receiver
+module github.com/mdouchement/smpp
 
-go 1.23.5
+go 1.18
 
 require (
 	github.com/stretchr/testify v1.8.1
