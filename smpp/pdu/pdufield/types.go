@@ -50,6 +50,7 @@ const (
 	GSMUserData          Name = "gsm_sms_ud.udh"
 	UnsuccessSme         Name = "unsuccess_sme"
 	ValidityPeriod       Name = "validity_period"
+	UdhiFlag             Name = "udhi_flag"
 )
 
 // Fixed is a PDU of fixed length.
